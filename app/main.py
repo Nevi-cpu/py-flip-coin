@@ -1,5 +1,6 @@
 import random
 
+
 def flip_n_times(flips: int) -> int:
     heads = 0
 
@@ -20,6 +21,7 @@ def flip_coin() -> dict:
 
     return {head: round(count / cases * 100, 2)
             for head, count in result.items()}
+
 
 if __name__ == "__main__":
     data = flip_coin()
